@@ -26,7 +26,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
   3. Static output configuration is correct for Vercel deployment
   4. Tailwind CSS 4 with dark mode support is properly configured
 
-**Plans:** 1/3 plans executed
+**Plans:** 2/3 plans executed
 Plans:
 - [ ] 01-project-foundation-01-PLAN.md — Project scaffolding with create-next-app
 - [ ] 01-project-foundation-02-PLAN.md — Core configuration (static export + dark mode)
@@ -96,7 +96,7 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Project Foundation & Setup | 1/3 | In Progress|  |
+| 1. Project Foundation & Setup | 2/3 | In Progress|  |
 | 2. Core Content Infrastructure | 0/0 | Not started | - |
 | 3. Core Pages & UI Components | 0/0 | Not started | - |
 | 4. SEO, Search & Deployment | 0/0 | Not started | - |
