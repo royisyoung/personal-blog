@@ -9,7 +9,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content Infrastructure
 
-- [ ] **CONT-01**: Next.js 15 App Router project initialized with static export configuration
+- [x] **CONT-01**: Next.js 15 App Router project initialized with static export configuration
 - [ ] **CONT-02**: Support Markdown/MDX files as content source (documents as data)
 - [ ] **CONT-03**: Parse frontmatter from markdown files (title, date, description, category, tags)
 - [ ] **CONT-04**: Extract all posts metadata at build time for listing and filtering
@@ -84,7 +84,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CONT-01 | Phase 1 | Pending |
+| CONT-01 | Phase 1 | Complete |
 | CONT-02 | Phase 2 | Pending |
 | CONT-03 | Phase 2 | Pending |
 | CONT-04 | Phase 2 | Pending |
