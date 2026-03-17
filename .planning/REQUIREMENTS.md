@@ -32,10 +32,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### SEO & Deployment
 
-- [ ] **SEO-01**: Proper meta tags for each page (title, description, Open Graph)
-- [ ] **SEO-02**: Generate sitemap.xml at build time
-- [ ] **SEO-03**: Generate robots.txt
-- [ ] **DEP-01**: Configured for one-click deployment to Vercel
+- [x] **SEO-01**: Proper meta tags for each page (title, description, Open Graph)
+- [x] **SEO-02**: Generate sitemap.xml at build time
+- [x] **SEO-03**: Generate robots.txt
+- [x] **DEP-01**: Configured for one-click deployment to Vercel
 
 ### Search Functionality
 
@@ -98,10 +98,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | UI-03       | Phase 3 | Complete |
 | UI-04       | Phase 3 | Complete |
 | UI-05       | Phase 3 | Complete |
-| SEO-01      | Phase 4 | Pending  |
-| SEO-02      | Phase 4 | Pending  |
-| SEO-03      | Phase 4 | Pending  |
-| DEP-01      | Phase 4 | Pending  |
+| SEO-01      | Phase 4 | Complete |
+| SEO-02      | Phase 4 | Complete |
+| SEO-03      | Phase 4 | Complete |
+| DEP-01      | Phase 4 | Complete |
 | SRCH-01     | Phase 4 | Complete |
 | SRCH-02     | Phase 4 | Pending  |
 
