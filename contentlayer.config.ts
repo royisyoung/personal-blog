@@ -1,5 +1,7 @@
 import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 import { z } from 'zod';
+import rehypeShiki from '@shikijs/rehype';
+import remarkGfm from 'remark-gfm';
 
 /**
  * Post 文档类型定义
@@ -62,4 +64,20 @@ export const Post = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: 'content',
   documentTypes: [Post],
+  mdx: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [
+      [
+        rehypeShiki,
+        {
+          themes: {
+            light: 'github-light',
+            dark: 'github-dark',
+          },
+          defaultColor: 'light',
+          cssVariablePrefix: '--shiki-',
+        },
+      ],
+    ],
+  },
 });
