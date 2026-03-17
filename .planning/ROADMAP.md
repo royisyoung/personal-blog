@@ -10,7 +10,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 
 - [x] **Phase 1: Project Foundation & Setup** - Initialize Next.js project with correct static export configuration (completed 2026-03-16)
 - [x] **Phase 2: Core Content Infrastructure** - Build Markdown/MDX content processing pipeline with frontmatter validation (completed 2026-03-17)
-- [ ] **Phase 3: Core Pages & UI Components** - Implement all main pages and responsive UI layout
+- [x] **Phase 3: Core Pages & UI Components** - Implement all main pages and responsive UI layout (completed 2026-03-17)
 - [ ] **Phase 4: SEO, Search & Deployment** - Add SEO optimization, full-text search, and Vercel deployment configuration
 - [ ] **Phase 5: Enhanced UX Features** - Add P2 quality-of-life improvements that enhance the reading experience
 
@@ -62,7 +62,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 9. Site header with navigation links is visible on all pages
 10. Pagination works for post lists when there are many posts
 
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 
@@ -103,7 +103,7 @@ Plans:
 | ------------------------------ | -------------- | ----------- | ---------- |
 | 1. Project Foundation & Setup  | 3/3            | Complete    | 2026-03-16 |
 | 2. Core Content Infrastructure | 3/3            | Complete    | 2026-03-17 |
-| 3. Core Pages & UI Components  | 2/3            | In Progress |            |
+| 3. Core Pages & UI Components  | 3/3            | Complete    | 2026-03-17 |
 | 4. SEO, Search & Deployment    | 0/0            | Not started | -          |
 | 5. Enhanced UX Features        | 0/0            | Not started | -          |
 

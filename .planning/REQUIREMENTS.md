@@ -17,9 +17,9 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Core Pages & Navigation
 
 - [x] **PAGE-01**: Home page with blog description and list of all posts
-- [ ] **PAGE-02**: Individual post page with full markdown content rendering
-- [ ] **PAGE-03**: Category page showing posts filtered by category
-- [ ] **PAGE-04**: Tag page showing posts filtered by tag
+- [x] **PAGE-02**: Individual post page with full markdown content rendering
+- [x] **PAGE-03**: Category page showing posts filtered by category
+- [x] **PAGE-04**: Tag page showing posts filtered by tag
 - [x] **PAGE-05**: About page for author information
 
 ### UI/UX Features
@@ -28,7 +28,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **UI-02**: Responsive layout supporting mobile, tablet, and desktop
 - [x] **UI-03**: Light/dark theme toggle with preference persistence
 - [x] **UI-04**: Site header with navigation links
-- [ ] **UI-05**: Pagination for post list when there are many posts
+- [x] **UI-05**: Pagination for post list when there are many posts
 
 ### SEO & Deployment
 
@@ -89,15 +89,15 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CONT-04     | Phase 2 | Complete |
 | CONT-05     | Phase 2 | Complete |
 | PAGE-01     | Phase 3 | Complete |
-| PAGE-02     | Phase 3 | Pending  |
-| PAGE-03     | Phase 3 | Pending  |
-| PAGE-04     | Phase 3 | Pending  |
+| PAGE-02     | Phase 3 | Complete |
+| PAGE-03     | Phase 3 | Complete |
+| PAGE-04     | Phase 3 | Complete |
 | PAGE-05     | Phase 3 | Complete |
 | UI-01       | Phase 3 | Complete |
 | UI-02       | Phase 3 | Complete |
 | UI-03       | Phase 3 | Complete |
 | UI-04       | Phase 3 | Complete |
-| UI-05       | Phase 3 | Pending  |
+| UI-05       | Phase 3 | Complete |
 | SEO-01      | Phase 4 | Pending  |
 | SEO-02      | Phase 4 | Pending  |
 | SEO-03      | Phase 4 | Pending  |
