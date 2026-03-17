@@ -62,7 +62,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 9. Site header with navigation links is visible on all pages
 10. Pagination works for post lists when there are many posts
 
-**Plans:** 4/4 plans (including 1 gap closure)
+**Plans:** 4/4 plans complete
 
 Plans:
 
