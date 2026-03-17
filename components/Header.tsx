@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import ThemeToggle from './ThemeToggle';
+import SearchModal from './SearchModal';
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -25,7 +26,7 @@ export default function Header() {
             MyClaudes
           </Link>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-2">
             <nav className="hidden md:flex items-center gap-4">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
@@ -45,6 +46,7 @@ export default function Header() {
                 );
               })}
             </nav>
+            <SearchModal />
             <ThemeToggle />
           </div>
         </div>
