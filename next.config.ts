@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
+import { withContentlayer } from 'next-contentlayer';
 
 const nextConfig: NextConfig = {
-  output: "export",
+  output: 'export',
   images: {
     unoptimized: true,
   },
@@ -9,4 +10,4 @@ const nextConfig: NextConfig = {
   skipTrailingSlashRedirect: true,
 };
 
-export default nextConfig;
+export default withContentlayer(nextConfig);
