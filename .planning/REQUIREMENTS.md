@@ -1,7 +1,6 @@
 # Requirements: Personal Blog
 
-**Defined:** 2026-03-16
-**Core Value:** Provide a fast, clean reading experience that lets readers focus on technical content.
+**Defined:** 2026-03-16 **Core Value:** Provide a fast, clean reading experience that lets readers focus on technical content.
 
 ## v1 Requirements
 
@@ -10,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Content Infrastructure
 
 - [x] **CONT-01**: Next.js 15 App Router project initialized with static export configuration
-- [ ] **CONT-02**: Support Markdown/MDX files as content source (documents as data)
-- [ ] **CONT-03**: Parse frontmatter from markdown files (title, date, description, category, tags)
-- [ ] **CONT-04**: Extract all posts metadata at build time for listing and filtering
-- [ ] **CONT-05**: Shiki code syntax highlighting for code blocks
+- [x] **CONT-02**: Support Markdown/MDX files as content source (documents as data)
+- [x] **CONT-03**: Parse frontmatter from markdown files (title, date, description, category, tags)
+- [x] **CONT-04**: Extract all posts metadata at build time for listing and filtering
+- [x] **CONT-05**: Shiki code syntax highlighting for code blocks
 
 ### Core Pages & Navigation
 
@@ -69,7 +68,7 @@ Deferred to future release. Tracked but not in current roadmap.
 Explicitly excluded. Documented to prevent scope creep.
 
 | Feature | Reason |
-|---------|--------|
+| --- | --- |
 | User registration/login system | Blog is read-only, adds security maintenance overhead, doesn't fit SSG architecture |
 | Online writing admin backend | Requires database, increases operational complexity, contradicts "documents as data" philosophy |
 | Multi-user collaboration | Single-author blog by design, Git collaboration sufficient |
@@ -82,36 +81,36 @@ Explicitly excluded. Documented to prevent scope creep.
 
 Which phases cover which requirements. Updated during roadmap creation.
 
-| Requirement | Phase | Status |
-|-------------|-------|--------|
-| CONT-01 | Phase 1 | Complete |
-| CONT-02 | Phase 2 | Pending |
-| CONT-03 | Phase 2 | Pending |
-| CONT-04 | Phase 2 | Pending |
-| CONT-05 | Phase 2 | Pending |
-| PAGE-01 | Phase 3 | Pending |
-| PAGE-02 | Phase 3 | Pending |
-| PAGE-03 | Phase 3 | Pending |
-| PAGE-04 | Phase 3 | Pending |
-| PAGE-05 | Phase 3 | Pending |
-| UI-01 | Phase 3 | Pending |
-| UI-02 | Phase 3 | Pending |
-| UI-03 | Phase 3 | Pending |
-| UI-04 | Phase 3 | Pending |
-| UI-05 | Phase 3 | Pending |
-| SEO-01 | Phase 4 | Pending |
-| SEO-02 | Phase 4 | Pending |
-| SEO-03 | Phase 4 | Pending |
-| DEP-01 | Phase 4 | Pending |
-| SRCH-01 | Phase 4 | Pending |
-| SRCH-02 | Phase 4 | Pending |
+| Requirement | Phase   | Status   |
+| ----------- | ------- | -------- |
+| CONT-01     | Phase 1 | Complete |
+| CONT-02     | Phase 2 | Complete |
+| CONT-03     | Phase 2 | Complete |
+| CONT-04     | Phase 2 | Complete |
+| CONT-05     | Phase 2 | Complete |
+| PAGE-01     | Phase 3 | Pending  |
+| PAGE-02     | Phase 3 | Pending  |
+| PAGE-03     | Phase 3 | Pending  |
+| PAGE-04     | Phase 3 | Pending  |
+| PAGE-05     | Phase 3 | Pending  |
+| UI-01       | Phase 3 | Pending  |
+| UI-02       | Phase 3 | Pending  |
+| UI-03       | Phase 3 | Pending  |
+| UI-04       | Phase 3 | Pending  |
+| UI-05       | Phase 3 | Pending  |
+| SEO-01      | Phase 4 | Pending  |
+| SEO-02      | Phase 4 | Pending  |
+| SEO-03      | Phase 4 | Pending  |
+| DEP-01      | Phase 4 | Pending  |
+| SRCH-01     | Phase 4 | Pending  |
+| SRCH-02     | Phase 4 | Pending  |
 
 **Coverage:**
+
 - v1 requirements: 21 total
 - Mapped to phases: 21
 - Unmapped: 0 ✓
 
 ---
 
-*Requirements defined: 2026-03-16*
-*Last updated: 2026-03-16 after roadmap creation*
+_Requirements defined: 2026-03-16_ _Last updated: 2026-03-16 after roadmap creation_

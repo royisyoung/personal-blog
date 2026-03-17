@@ -41,7 +41,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 4. Code blocks in articles have correct syntax highlighting using Shiki
 5. Build fails if any post has invalid frontmatter (validation catches errors)
 
-**Plans:** 3 plans
+**Plans:** 1/3 plans executed
 
 - [ ] 02-01-PLAN.md — Install dependencies and configure Contentlayer with Next.js
 - [ ] 02-02-PLAN.md — Define Post document type with frontmatter validation and content utilities
@@ -96,7 +96,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 | Phase                          | Plans Complete | Status      | Completed  |
 | ------------------------------ | -------------- | ----------- | ---------- |
 | 1. Project Foundation & Setup  | 3/3            | Complete    | 2026-03-16 |
-| 2. Core Content Infrastructure | 0/3            | Not started | -          |
+| 2. Core Content Infrastructure | 1/3            | In Progress |            |
 | 3. Core Pages & UI Components  | 0/0            | Not started | -          |
 | 4. SEO, Search & Deployment    | 0/0            | Not started | -          |
 | 5. Enhanced UX Features        | 0/0            | Not started | -          |
