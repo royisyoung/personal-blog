@@ -10,6 +10,8 @@ coverage
 .next/
 out/
 build
+# pagefind search index (generated at build time)
+out/pagefind/
 
 # production
 dist
