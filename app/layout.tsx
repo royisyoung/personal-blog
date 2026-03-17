@@ -7,9 +7,24 @@ import { ThemeProvider } from '@/lib/theme';
 import Header from '@/components/Header';
 import Container from '@/components/Container';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
 export const metadata: Metadata = {
   title: 'MyClaudes - Personal Technology Blog',
   description: 'A clean, fast static technology blog',
+  metadataBase: new URL(siteUrl),
+  openGraph: {
+    type: 'website',
+    siteName: 'MyClaudes',
+    title: 'MyClaudes - Personal Technology Blog',
+    description: 'A clean, fast static technology blog',
+    url: siteUrl,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'MyClaudes - Personal Technology Blog',
+    description: 'A clean, fast static technology blog',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

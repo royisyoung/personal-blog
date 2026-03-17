@@ -3,12 +3,27 @@ import Container from '@/components/Container';
 import PostList from '@/components/PostList';
 import Pagination from '@/components/Pagination';
 import { calculatePagination, getPaginatedPosts, postsPerPage } from '@/lib/pagination';
+import type { Metadata } from 'next';
 
 type HomePageProps = {
   params: Promise<{
     page?: string;
   }>;
 };
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'MyClaudes - Personal Technology Blog',
+    description: 'A clean, fast static blog about technology, programming, and software development.',
+    openGraph: {
+      title: 'MyClaudes - Personal Technology Blog',
+      description: 'A clean, fast static blog about technology, programming, and software development.',
+      url: `${siteUrl}/`,
+    },
+  };
+}
 
 /**
  * Generate static params for all pages of posts

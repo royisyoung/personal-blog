@@ -2,12 +2,55 @@ import { getAllPosts, getPostBySlug } from '@/lib/content';
 import Container from '@/components/Container';
 import { format } from 'date-fns';
 import { PostContent } from './PostContent';
+import type { Metadata } from 'next';
 
 type PostPageProps = {
   params: Promise<{
     slug: string;
   }>;
 };
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+export async function generateMetadata({ params }: { params: PostPageProps['params'] }): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+
+  if (!post) {
+    return {
+      title: 'Post not found - MyClaudes',
+      description: 'The post you are looking for does not exist.',
+    };
+  }
+
+  const ogImageUrl = `${siteUrl}/api/og?title=${encodeURIComponent(post.title)}`;
+
+  return {
+    title: post.title,
+    description: post.description,
+    openGraph: {
+      type: 'article',
+      title: post.title,
+      description: post.description,
+      publishedTime: post.date,
+      url: `${siteUrl}/posts/${post.slug}/`,
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
+      images: [ogImageUrl],
+    },
+  };
+}
 
 /**
  * Generate static params for all posts at build time

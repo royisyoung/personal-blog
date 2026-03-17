@@ -1,4 +1,19 @@
 import Container from '@/components/Container';
+import type { Metadata } from 'next';
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'About - MyClaudes',
+    description: 'About the author of MyClaudes - a personal technology blog.',
+    openGraph: {
+      title: 'About - MyClaudes',
+      description: 'About the author of MyClaudes - a personal technology blog.',
+      url: `${siteUrl}/about/`,
+    },
+  };
+}
 
 export default function AboutPage() {
   return (

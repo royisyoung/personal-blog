@@ -4,6 +4,7 @@ import PostList from '@/components/PostList';
 import Pagination from '@/components/Pagination';
 import { calculatePagination, getPaginatedPosts, postsPerPage } from '@/lib/pagination';
 import { capitalize } from 'lodash';
+import type { Metadata } from 'next';
 
 type TagPageProps = {
   params: Promise<{
@@ -11,6 +12,23 @@ type TagPageProps = {
     page?: string;
   }>;
 };
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+export async function generateMetadata({ params }: { params: TagPageProps['params'] }): Promise<Metadata> {
+  const { tag } = await params;
+  const displayName = capitalize(tag.replace(/-/g, ' '));
+
+  return {
+    title: `Tag: ${displayName} - MyClaudes`,
+    description: `Browse all posts tagged with ${displayName}.`,
+    openGraph: {
+      title: `Tag: ${displayName} - MyClaudes`,
+      description: `Browse all posts tagged with ${displayName}.`,
+      url: `${siteUrl}/tags/${tag}/`,
+    },
+  };
+}
 
 /**
  * Generate static params for all tags and pages

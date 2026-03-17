@@ -4,6 +4,7 @@ import PostList from '@/components/PostList';
 import Pagination from '@/components/Pagination';
 import { calculatePagination, getPaginatedPosts, postsPerPage } from '@/lib/pagination';
 import { capitalize } from 'lodash';
+import type { Metadata } from 'next';
 
 type CategoryPageProps = {
   params: Promise<{
@@ -11,6 +12,23 @@ type CategoryPageProps = {
     page?: string;
   }>;
 };
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+export async function generateMetadata({ params }: { params: CategoryPageProps['params'] }): Promise<Metadata> {
+  const { category } = await params;
+  const displayName = capitalize(category.replace(/-/g, ' '));
+
+  return {
+    title: `Category: ${displayName} - MyClaudes`,
+    description: `Browse all posts in the ${displayName} category.`,
+    openGraph: {
+      title: `Category: ${displayName} - MyClaudes`,
+      description: `Browse all posts in the ${displayName} category.`,
+      url: `${siteUrl}/categories/${category}/`,
+    },
+  };
+}
 
 /**
  * Generate static params for all categories and pages
