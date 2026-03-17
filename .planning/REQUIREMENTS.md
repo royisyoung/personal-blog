@@ -16,11 +16,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Core Pages & Navigation
 
-- [ ] **PAGE-01**: Home page with blog description and list of all posts
+- [x] **PAGE-01**: Home page with blog description and list of all posts
 - [ ] **PAGE-02**: Individual post page with full markdown content rendering
 - [ ] **PAGE-03**: Category page showing posts filtered by category
 - [ ] **PAGE-04**: Tag page showing posts filtered by tag
-- [ ] **PAGE-05**: About page for author information
+- [x] **PAGE-05**: About page for author information
 
 ### UI/UX Features
 
@@ -88,11 +88,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CONT-03     | Phase 2 | Complete |
 | CONT-04     | Phase 2 | Complete |
 | CONT-05     | Phase 2 | Complete |
-| PAGE-01     | Phase 3 | Pending  |
+| PAGE-01     | Phase 3 | Complete |
 | PAGE-02     | Phase 3 | Pending  |
 | PAGE-03     | Phase 3 | Pending  |
 | PAGE-04     | Phase 3 | Pending  |
-| PAGE-05     | Phase 3 | Pending  |
+| PAGE-05     | Phase 3 | Complete |
 | UI-01       | Phase 3 | Complete |
 | UI-02       | Phase 3 | Complete |
 | UI-03       | Phase 3 | Complete |
