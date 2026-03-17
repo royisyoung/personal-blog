@@ -83,7 +83,13 @@ Plans:
 6. Project can be deployed to Vercel with one click without configuration errors
 7. Deployed site is fully functional with all assets loading correctly
 
-**Plans:** TBD
+**Plans:** 3 plans
+
+Plans:
+
+- [ ] 04-01-PLAN.md — SEO infrastructure (meta tags + OG image + sitemap + robots
+- [ ] 04-02-PLAN.md — Pagefind 搜索集成
+- [ ] 04-03-PLAN.md — Search UI 模态弹窗组件
 
 ### Phase 5: Enhanced UX Features
 
@@ -105,7 +111,7 @@ Plans:
 | 1. Project Foundation & Setup  | 3/3            | Complete    | 2026-03-16 |
 | 2. Core Content Infrastructure | 3/3            | Complete    | 2026-03-17 |
 | 3. Core Pages & UI Components  | 4/4            | Complete    | 2026-03-17 |
-| 4. SEO, Search & Deployment    | 0/0            | Not started | -          |
+| 4. SEO, Search & Deployment    | 0/3            | Not started | -          |
 | 5. Enhanced UX Features        | 0/0            | Not started | -          |
 
 ---
