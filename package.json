@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --turbopack",
+    "build": "next build --turbopack && npx pagefind --source out && node scripts/generate-sitemap.mjs",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky"
@@ -20,6 +20,7 @@
     "lucide-react": "^0.577.0",
     "next": "15.x",
     "next-contentlayer": "^0.3.4",
+    "pagefind": "^1.4.0",
     "radix-ui": "^1.4.3",
     "react": "19.x",
     "react-dom": "19.x",
