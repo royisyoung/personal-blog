@@ -68,7 +68,7 @@ export default makeSource({
     remarkPlugins: [remarkGfm],
     rehypePlugins: [
       [
-        rehypeShiki,
+        rehypeShiki as any,
         {
           themes: {
             light: 'github-light',
