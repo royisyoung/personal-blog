@@ -9,7 +9,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 ## Phases
 
 - [x] **Phase 1: Project Foundation & Setup** - Initialize Next.js project with correct static export configuration (completed 2026-03-16)
-- [ ] **Phase 2: Core Content Infrastructure** - Build Markdown/MDX content processing pipeline with frontmatter validation
+- [x] **Phase 2: Core Content Infrastructure** - Build Markdown/MDX content processing pipeline with frontmatter validation (completed 2026-03-17)
 - [ ] **Phase 3: Core Pages & UI Components** - Implement all main pages and responsive UI layout
 - [ ] **Phase 4: SEO, Search & Deployment** - Add SEO optimization, full-text search, and Vercel deployment configuration
 - [ ] **Phase 5: Enhanced UX Features** - Add P2 quality-of-life improvements that enhance the reading experience
@@ -41,7 +41,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 4. Code blocks in articles have correct syntax highlighting using Shiki
 5. Build fails if any post has invalid frontmatter (validation catches errors)
 
-**Plans:** 1/3 plans executed
+**Plans:** 3/3 plans complete
 
 - [ ] 02-01-PLAN.md — Install dependencies and configure Contentlayer with Next.js
 - [ ] 02-02-PLAN.md — Define Post document type with frontmatter validation and content utilities
@@ -96,7 +96,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 | Phase                          | Plans Complete | Status      | Completed  |
 | ------------------------------ | -------------- | ----------- | ---------- |
 | 1. Project Foundation & Setup  | 3/3            | Complete    | 2026-03-16 |
-| 2. Core Content Infrastructure | 1/3            | In Progress |            |
+| 2. Core Content Infrastructure | 3/3            | Complete    | 2026-03-17 |
 | 3. Core Pages & UI Components  | 0/0            | Not started | -          |
 | 4. SEO, Search & Deployment    | 0/0            | Not started | -          |
 | 5. Enhanced UX Features        | 0/0            | Not started | -          |
