@@ -39,7 +39,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Search Functionality
 
-- [ ] **SRCH-01**: Full-text search across all blog posts using Pagefind
+- [x] **SRCH-01**: Full-text search across all blog posts using Pagefind
 - [ ] **SRCH-02**: Search UI component accessible from any page
 
 ## v2 Requirements
@@ -102,7 +102,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEO-02      | Phase 4 | Pending  |
 | SEO-03      | Phase 4 | Pending  |
 | DEP-01      | Phase 4 | Pending  |
-| SRCH-01     | Phase 4 | Pending  |
+| SRCH-01     | Phase 4 | Complete |
 | SRCH-02     | Phase 4 | Pending  |
 
 **Coverage:**
