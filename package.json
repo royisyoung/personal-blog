@@ -10,9 +10,12 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "contentlayer": "^0.3.4",
     "next": "15.x",
+    "next-contentlayer": "^0.3.4",
     "react": "19.x",
-    "react-dom": "19.x"
+    "react-dom": "19.x",
+    "shiki": "^4.0.2"
   },
   "devDependencies": {
     "@types/node": "^20",
