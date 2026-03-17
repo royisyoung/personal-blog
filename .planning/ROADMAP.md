@@ -62,7 +62,13 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 9. Site header with navigation links is visible on all pages
 10. Pagination works for post lists when there are many posts
 
-**Plans:** TBD
+**Plans:** 3 plans
+
+Plans:
+
+- [ ] 03-01-PLAN.md — Shared layout foundation: header + theme toggle + container
+- [ ] 03-02-PLAN.md — Home page + about page + reusable post list components
+- [ ] 03-03-PLAN.md — Post detail page + category/tag filter pages + pagination
 
 ### Phase 4: SEO, Search & Deployment
 
@@ -97,10 +103,10 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 | ------------------------------ | -------------- | ----------- | ---------- |
 | 1. Project Foundation & Setup  | 3/3            | Complete    | 2026-03-16 |
 | 2. Core Content Infrastructure | 3/3            | Complete    | 2026-03-17 |
-| 3. Core Pages & UI Components  | 0/0            | Not started | -          |
+| 3. Core Pages & UI Components  | 0/3            | Not started | -          |
 | 4. SEO, Search & Deployment    | 0/0            | Not started | -          |
 | 5. Enhanced UX Features        | 0/0            | Not started | -          |
 
 ---
 
-_Roadmap created: 2026-03-16_ _Last updated: 2026-03-16_
+_Roadmap created: 2026-03-16_ _Last updated: 2026-03-17_
