@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e37] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e38]:
+      - img [ref=e39]
+    - generic [ref=e42]:
+      - button "Open issues overlay" [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: "0"
+          - generic [ref=e46]: "1"
+        - generic [ref=e47]: Issue
+      - button "Collapse issues badge" [ref=e48]:
+        - img [ref=e49]
+  - banner [ref=e51]:
+    - generic [ref=e53]:
+      - link "MyClaudes" [ref=e54] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e55]:
+        - navigation [ref=e56]:
+          - link "Home" [ref=e57] [cursor=pointer]:
+            - /url: /
+          - link "Categories" [ref=e58] [cursor=pointer]:
+            - /url: /categories
+          - link "About" [ref=e59] [cursor=pointer]:
+            - /url: /about
+        - button "Toggle theme" [ref=e60]:
+          - img [ref=e61]
+          - text: Toggle theme
+  - main [ref=e63]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "Personal Tech Blog" [level=1] [ref=e67]
+        - paragraph [ref=e68]: A minimalist technical blog about software development.
+      - generic [ref=e69]:
+        - heading "Recent Posts" [level=2] [ref=e70]
+        - article [ref=e72]:
+          - heading "Hello World" [level=2] [ref=e73]:
+            - link "Hello World" [ref=e74] [cursor=pointer]:
+              - /url: /posts/posts
+          - generic [ref=e75]:
+            - time [ref=e76]: 2025-01-01
+            - text: •meta
+          - paragraph [ref=e77]: First post on the blog - welcome and introduction
+  - alert [ref=e78]

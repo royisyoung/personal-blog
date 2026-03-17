@@ -51,12 +51,8 @@ export const Post = defineDocumentType(() => ({
         // Each post is in /content/posts/{slug}/index.mdx
         // Get the directory name as the slug
         const parts = doc._raw.flattenedPath.split('/');
-        return parts[parts.length - 2];
+        return parts[parts.length - 1];
       },
-    },
-    body: {
-      type: 'string',
-      resolve: (doc) => doc.body.raw,
     },
   },
 }));

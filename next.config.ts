@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
   },
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
+  outputFileTracingRoot: __dirname,
+  // Use Turbopack for building - fixes contentlayer compatibility issues with Next.js 15
+  turbopack: {
+    // Turbopack handles binary files and dynamic imports correctly
+  },
 };
 
 export default withContentlayer(nextConfig);

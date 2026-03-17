@@ -1,7 +1,7 @@
 import { getAllPosts, getPostBySlug } from '@/lib/content';
 import Container from '@/components/Container';
 import { format } from 'date-fns';
-import { MDXContent } from 'contentlayer/core';
+import { PostContent } from './PostContent';
 
 type PostPageProps = {
   params: Promise<{
@@ -11,6 +11,7 @@ type PostPageProps = {
 
 /**
  * Generate static params for all posts at build time
+ * Must be exported from a server component
  */
 export function generateStaticParams() {
   const posts = getAllPosts();
@@ -21,6 +22,7 @@ export function generateStaticParams() {
 
 /**
  * Individual post page with full MDX content rendering
+ * Server component that exports generateStaticParams and renders client component
  */
 export default async function PostPage({ params }: PostPageProps) {
   const { slug } = await params;
@@ -48,7 +50,7 @@ export default async function PostPage({ params }: PostPageProps) {
         </header>
 
         <div className="prose prose-zinc dark:prose-invert max-w-none">
-          <MDXContent code={post.body.code} />
+          <PostContent code={post.body.code} />
         </div>
       </article>
     </Container>

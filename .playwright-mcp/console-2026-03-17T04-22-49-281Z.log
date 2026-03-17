@@ -9,3 +9,874 @@ Module not found: Can't resolve '@/lib/utils'
   9 |
 
 https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 4273136ms] [ERROR] ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import "./globals.css";
+  5 | import { Geist } from "next/font/google";
+> 6 | import { cn } from "@/lib/utils";
+    | ^
+  7 |
+  8 | const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 4284910ms] [WARNING] The resource http://localhost:3001/_next/static/css/app/layout.css?v=1773725642769 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3001/:0
+[ 4305489ms] [WARNING] The resource http://localhost:3001/_next/static/css/app/layout.css?v=1773725642769 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3001/:0
+[ 4335878ms] [WARNING] The resource http://localhost:3001/_next/static/css/app/layout.css?v=1773725642769 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3001/:0
+[ 4813790ms] [WARNING] The resource http://localhost:3001/_next/static/css/app/layout.css?v=1773725642769 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3001/:0
+[ 6097645ms] [WARNING] The resource http://localhost:3001/_next/static/css/app/layout.css?v=1773725642769 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3001/:0
+[ 6111086ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:111
+[ 6121213ms] Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <link>
+    <RootLayout>
+      <html lang="en" className="__variable...">
+        <body className="bg-zinc-50...">
+          <ThemeProvider>
+            <Header>
+              <header className="border-b b...">
+                <div className="max-w-5xl ...">
+                  <div className="flex justi...">
+                    <LinkComponent>
+                    <div className="flex items...">
+                      <nav>
+                      <ThemeToggle>
+                        <Button variant="ghost" size="icon" onClick={function toggleTheme} aria-label="Toggle theme" ...>
+                          <button data-slot="button" data-variant="ghost" data-size="icon" className={"group/bu..."} ...>
+                            <Moon className="h-5 w-5">
+                              <_c ref={null} iconNode={[...]} className="lucide-moo...">
+                                <svg
+                                  ref={null}
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width={24}
+                                  height={24}
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth={2}
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
++                                 className="lucide lucide-moon h-5 w-5"
+-                                 className="lucide lucide-sun h-5 w-5"
+                                  aria-hidden="true"
+                                >
++                                 <path
++                                   d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8..."
++                                 >
+-                                 <circle cx="12" cy="12" r="4">
+                            ...
+            ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11107:17)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopSync (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15547:41)
+    at renderRootSync (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15527:11)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14991:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[ 6345438ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:111
+[ 6356921ms] Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <link>
+    <RootLayout>
+      <html lang="en" className="__variable...">
+        <body className="bg-zinc-50...">
+          <ThemeProvider>
+            <Header>
+              <header className="border-b b...">
+                <div className="max-w-5xl ...">
+                  <div className="flex justi...">
+                    <LinkComponent>
+                    <div className="flex items...">
+                      <nav>
+                      <ThemeToggle>
+                        <Button variant="ghost" size="icon" onClick={function toggleTheme} aria-label="Toggle theme" ...>
+                          <button data-slot="button" data-variant="ghost" data-size="icon" className={"group/bu..."} ...>
+                            <Moon className="h-5 w-5">
+                              <_c ref={null} iconNode={[...]} className="lucide-moo...">
+                                <svg
+                                  ref={null}
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width={24}
+                                  height={24}
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth={2}
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
++                                 className="lucide lucide-moon h-5 w-5"
+-                                 className="lucide lucide-sun h-5 w-5"
+                                  aria-hidden="true"
+                                >
++                                 <path
++                                   d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8..."
++                                 >
+-                                 <circle cx="12" cy="12" r="4">
+                            ...
+            ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11107:17)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopSync (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15547:41)
+    at renderRootSync (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15527:11)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14991:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[ 6388313ms] [WARNING] The resource http://localhost:3001/_next/static/css/app/layout.css?v=1773727745608 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3001/:0
+[ 6444131ms] [WARNING] The resource http://localhost:3001/_next/static/css/app/layout.css?v=1773727745608 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3001/:0
+[ 6866941ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+
+Import trace for requested module:
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/lib/fsevents-handler.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/index.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/fs-watcher.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/index.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6867021ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6867027ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6867027ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6867027ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6867027ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx'
+
+Import trace for requested module:
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/ sync ^.*\/.*$
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/esbuild.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6870536ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+
+Import trace for requested module:
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/lib/fsevents-handler.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/index.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/fs-watcher.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/index.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6870589ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6870700ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6870703ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6870703ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6870703ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx'
+
+Import trace for requested module:
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/ sync ^.*\/.*$
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/esbuild.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6871137ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+
+Import trace for requested module:
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/lib/fsevents-handler.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/index.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/fs-watcher.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/index.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6871143ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6871143ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6871143ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6871143ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6871178ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx'
+
+Import trace for requested module:
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/ sync ^.*\/.*$
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/esbuild.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6873867ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+
+Import trace for requested module:
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/lib/fsevents-handler.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/index.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/fs-watcher.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/index.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6873872ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6873874ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6873874ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6873874ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6873875ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx'
+
+Import trace for requested module:
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/ sync ^.*\/.*$
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/esbuild.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[ 6874851ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/:0
+[ 6878480ms] ModuleParseError: Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+    at handleParseError (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:410378)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:411994)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407859)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5565)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5426)
+    at callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408371)
+    at eval (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:14:9224)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/src/build/webpack/plugins/profiling-plugin.ts:207:17)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:453:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+[ 6878533ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 6878541ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 6878570ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 6878570ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 6878570ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 6878571ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx' @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7814418ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/_next/static/webpack/1c8e545f81f68b81.webpack.hot-update.json:0
+[ 7814419ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[ 7815756ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+
+Import trace for requested module:
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/lib/fsevents-handler.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/index.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/fs-watcher.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/index.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7815759ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7815759ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7815863ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7815866ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7815866ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx'
+
+Import trace for requested module:
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/ sync ^.*\/.*$
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/esbuild.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7815909ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/:0
+[ 7817508ms] ModuleParseError: Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+    at handleParseError (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:410378)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:411994)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407859)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5565)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5426)
+    at callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408371)
+    at eval (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:14:9224)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/src/build/webpack/plugins/profiling-plugin.ts:207:17)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+[ 7817513ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7817514ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7817515ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7817515ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7817515ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7817515ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx' @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7839087ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/_next/static/webpack/1c8e545f81f68b81.webpack.hot-update.json:0
+[ 7839087ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[ 7839801ms] [ERROR] ./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+Module parse failed: Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+(Source code omitted for this binary file)
+
+Import trace for requested module:
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.node
+./node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents/fsevents.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/lib/fsevents-handler.js
+./node_modules/.pnpm/chokidar@3.6.0/node_modules/chokidar/index.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/fs-watcher.js
+./node_modules/.pnpm/@contentlayer+utils@0.3.4/node_modules/@contentlayer/utils/dist/node/index.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7839803ms] [ERROR] ./app/posts/[slug]/page.tsx:3:1
+Module not found: Can't resolve 'date-fns'
+  1 | import { getAllPosts, getPostBySlug } from '@/lib/content';
+  2 | import Container from '@/components/Container';
+> 3 | import { format } from 'date-fns';
+    | ^
+  4 | import { MDXContent } from 'contentlayer/core';
+  5 |
+  6 | type PostPageProps = {
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7839803ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/dynamic-build.js:10:93
+Module not found: Can't resolve 'file:/'
+   8 | // NOTE this is currently not used but we keep it around for now - who knows?
+   9 | export const dynamicBuildFromCompiledConfigMain = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(dynamicBuildFromCompiledConfig({ compiledConfigPath, esbuildHash, verbose }), T.tapCauseLogPretty, runMain({ verbose, useInMemoryFs: true, tracingServiceName: 'contentlayer-dynamic' }));
+> 10 | export const dynamicBuildFromCompiledConfig = ({ compiledConfigPath, esbuildHash, verbose, }) => pipe(T.tryPromise(() => import(`file://${compiledConfigPath}`)), T.tap((_) => T.log('got config module', _)), T.chain((exports) => T.tryPromise(() => exports.default)), T.tap((_) => T.log('got config exports')), T.mapError((error) => new ConfigReadError({ error, configPath: compiledConfigPath })), T.map((source) => ({ source, esbuildHash, filePath: compiledConfigPath })), T.tap((_) => T.log('got config source')), T.timeoutFail(5000, () => new ConfigReadError({
+     |                                                                                             ^
+  11 |     error: new Error(`Timed out after 5 seconds trying to loading config`),
+  12 |     configPath: compiledConfigPath,
+  13 | })), T.chain((config) => dynamicBuild({ config, verbose })), OT.withSpan('@contentlayer/core/dynamicBuildFromCompiledConfig', { attributes: { compiledConfigPath } }));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7839803ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/index.js:71:1
+Module not found: Can't resolve 'file:/'
+  69 |     // 1) `?x=` suffix needed in case of re-loading when watching the config file for changes
+  70 |     // 2) `file://` prefix is needed for Windows to work properly
+> 71 |     const importFresh = async (modulePath) => import(`file://${modulePath}?x=${Date.now()}`);
+     | ^
+  72 |     const exports = yield* $(pipe(T.tryCatchPromise(() => importFresh(outfilePath), (error) => new ConfigReadError({ error, configPath })), OT.withSpan('import-compiled-contentlayer-config')));
+  73 |     if (!('default' in exports)) {
+  74 |         return yield* $(T.fail(new ConfigNoDefaultExportError({ configPath, availableExports: Object.keys(exports) })));
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7839803ms] [ERROR] ./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/markdown/markdown.js:16:40
+Module not found: Can't resolve 'markdown-wasm/dist/markdown.node.js'
+  14 |         // NOTE `markdown-wasm` is an optional peer dependency
+  15 |         return yield* $(T.tryPromise(async () => {
+> 16 |             const { parse: parseWasm } = await import('markdown-wasm/dist/markdown.node.js');
+     |                                        ^
+  17 |             return parseWasm(mdString);
+  18 |         }));
+  19 |     }
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7839803ms] [ERROR] ./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+Module parse failed: Unexpected token (1:7)
+> export type Platform = 'browser' | 'node' | 'neutral'
+| export type Format = 'iife' | 'cjs' | 'esm'
+| export type Loader = 'base64' | 'binary' | 'copy' | 'css' | 'dataurl' | 'default' | 'empty' | 'file' | 'js' | 'json' | 'jsx' | 'local-css' | 'text' | 'ts' | 'tsx'
+
+Import trace for requested module:
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.d.ts
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/ sync ^.*\/.*$
+./node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/lib/main.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/getConfig/esbuild.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/generation/generate-dotpkg.js
+./node_modules/.pnpm/@contentlayer+core@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/core/dist/index.js
+./node_modules/.pnpm/contentlayer@0.3.4_esbuild@0.18.20/node_modules/contentlayer/dist/core/index.js
+./app/posts/[slug]/page.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[ 7839826ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/:0
+[ 8525467ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/:0
