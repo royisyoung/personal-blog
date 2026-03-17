@@ -32,9 +32,9 @@ All content infrastructure and UI pages are already complete in Phases 2 and 3 �
 
 ### Search UI
 
-- **Dedicated `/search` page** for full-text search
-- Clean separation, simple to implement with Pagefind
-- Users can access search via navigation link from any page
+- **Modal popup from header** — search icon in header, click opens a modal dialog
+- Accessible from any page on the site, better UX
+- Search results display directly in the modal without page navigation
 
 ### Sitemap Generation
 
@@ -106,7 +106,7 @@ No specific additional requirements beyond the decisions captured above — impl
 ### Integration Points
 
 - OG image route will need a new Route Handler at `app/api/og/route.tsx`
-- Search page at `app/search/page.tsx`
+- Search modal component in `components/` with trigger button added to header
 - `next.config.ts` needs Pagefind output path configuration
 - Package.json needs `@vercel/og` and `pagefind` dependencies
 
