@@ -1,0 +1,11 @@
+[ 4271746ms] [ERROR] ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import "./globals.css";
+  5 | import { Geist } from "next/font/google";
+> 6 | import { cn } from "@/lib/utils";
+    | ^
+  7 |
+  8 | const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56

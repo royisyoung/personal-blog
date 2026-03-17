@@ -1,0 +1,1 @@
+[     932ms] [WARNING] iso_swr: SSR fetch failed for "/api/v1/integrations/search-repo" {error: iso_swr_fetch_error, message: The request is missing an authentication token} @ https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app:99
