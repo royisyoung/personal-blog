@@ -1,9 +1,44 @@
+import { getAllPosts } from '@/lib/content';
 import Container from '@/components/Container';
 import PostList from '@/components/PostList';
-import { getAllPosts } from '@/lib/content';
+import Pagination from '@/components/Pagination';
+import { calculatePagination, getPaginatedPosts, postsPerPage } from '@/lib/pagination';
 
-export default function Home() {
+type HomePageProps = {
+  params: Promise<{
+    page?: string;
+  }>;
+};
+
+/**
+ * Generate static params for all pages of posts
+ */
+export function generateStaticParams() {
   const posts = getAllPosts();
+  const totalPages = Math.ceil(posts.length / postsPerPage);
+
+  const params: Array<{ page?: string }> = [];
+
+  // Add first page without page param
+  params.push({});
+
+  // Add additional pages
+  for (let i = 2; i <= totalPages; i++) {
+    params.push({ page: i.toString() });
+  }
+
+  return params;
+}
+
+/**
+ * Home page with paginated list of recent posts
+ */
+export default async function HomePage({ params }: HomePageProps) {
+  const { page } = await params;
+  const posts = getAllPosts();
+  const currentPage = page ? parseInt(page, 10) : 1;
+  const paginatedPosts = getPaginatedPosts(posts, currentPage);
+  const pagination = calculatePagination(posts.length, currentPage);
 
   return (
     <Container className="pt-12">
@@ -15,7 +50,8 @@ export default function Home() {
       </div>
       <div className="mt-8">
         <h2 className="text-[20px] font-semibold mb-6 text-zinc-900 dark:text-zinc-100">Recent Posts</h2>
-        <PostList posts={posts} />
+        <PostList posts={paginatedPosts} />
+        <Pagination pagination={pagination} basePath="" />
       </div>
     </Container>
   );
