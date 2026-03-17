@@ -1,0 +1,63 @@
+---
+title: "Hello World"
+date: 2025-01-01
+description: "First post on the blog - welcome and introduction"
+category: "meta"
+tags: ["hello", "introduction", "blog"]
+---
+
+# Hello World
+
+Welcome to my new blog! This is my first post where I test out the **code highlighting** functionality.
+
+## What is this blog?
+
+This is a personal static technology blog built with:
+
+- Next.js 15
+- Contentlayer
+- TypeScript
+- Tailwind CSS
+- Shiki for code highlighting
+
+## Testing Code Highlighting
+
+Here's a TypeScript example to test Shiki syntax highlighting:
+
+```typescript
+// A simple TypeScript function to demonstrate syntax highlighting
+function greet(name: string): string {
+  return `Hello, ${name}! 👋`;
+}
+
+interface BlogPost {
+  title: string;
+  date: Date;
+  tags: string[];
+  published: boolean;
+}
+
+// Arrow function with destructuring
+const formatPost = ({ title, date }: BlogPost): string => {
+  return `${title} - ${date.toLocaleDateString()}`;
+};
+
+export default greet;
+```
+
+## Testing GitHub Flavored Markdown
+
+Shiki works with remark-gfm for tables:
+
+| Feature           | Status | Notes                               |
+| ----------------- | ------ | ----------------------------------- |
+| Code highlighting | ✅ Done | Uses Shiki with VSCode engine       |
+| Tables            | ✅ Done | Via remark-gfm                      |
+| MDX components    | ✅ Done | Ready for interactive content       |
+| Strikethrough     | ✅ Done | ~~Text~~ works correctly            |
+
+## Conclusion
+
+Everything looks good! This setup should provide excellent code highlighting for technical articles.
+
+Stay tuned for more content!
