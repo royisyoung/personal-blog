@@ -24,10 +24,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### UI/UX Features
 
-- [ ] **UI-01**: Minimalist clean design focused on content readability
-- [ ] **UI-02**: Responsive layout supporting mobile, tablet, and desktop
-- [ ] **UI-03**: Light/dark theme toggle with preference persistence
-- [ ] **UI-04**: Site header with navigation links
+- [x] **UI-01**: Minimalist clean design focused on content readability
+- [x] **UI-02**: Responsive layout supporting mobile, tablet, and desktop
+- [x] **UI-03**: Light/dark theme toggle with preference persistence
+- [x] **UI-04**: Site header with navigation links
 - [ ] **UI-05**: Pagination for post list when there are many posts
 
 ### SEO & Deployment
@@ -93,10 +93,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PAGE-03     | Phase 3 | Pending  |
 | PAGE-04     | Phase 3 | Pending  |
 | PAGE-05     | Phase 3 | Pending  |
-| UI-01       | Phase 3 | Pending  |
-| UI-02       | Phase 3 | Pending  |
-| UI-03       | Phase 3 | Pending  |
-| UI-04       | Phase 3 | Pending  |
+| UI-01       | Phase 3 | Complete |
+| UI-02       | Phase 3 | Complete |
+| UI-03       | Phase 3 | Complete |
+| UI-04       | Phase 3 | Complete |
 | UI-05       | Phase 3 | Pending  |
 | SEO-01      | Phase 4 | Pending  |
 | SEO-02      | Phase 4 | Pending  |
