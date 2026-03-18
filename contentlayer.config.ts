@@ -71,7 +71,7 @@ export const Post = defineDocumentType(() => ({
           id: { type: 'string', required: true },
         },
       },
-      resolve: (doc) => doc._raw.data?.headings || [],
+      resolve: (doc) => (doc._raw as any).data?.headings || [],
     },
   },
 }));

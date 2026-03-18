@@ -30,7 +30,7 @@ export function rehypeWrapCodeBlocks() {
 
         // Create wrapper div
         const wrapper = {
-          type: 'element',
+          type: 'element' as const,
           tagName: 'div',
           properties: {
             className: ['code-block-wrapper', 'relative'],
@@ -40,7 +40,7 @@ export function rehypeWrapCodeBlocks() {
 
         // Add copy button placeholder after the pre
         const placeholder = {
-          type: 'element',
+          type: 'element' as const,
           tagName: 'button',
           properties: {
             'data-copy-button': true,
