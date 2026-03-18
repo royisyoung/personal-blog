@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { createRoot } from 'react-dom/client';
 import { Copy, Check } from 'lucide-react';
 
 type CopyButtonProps = {
@@ -32,4 +33,30 @@ export function CopyButton({ text }: CopyButtonProps) {
       {copied ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4 text-muted-foreground" />}
     </button>
   );
+}
+
+/**
+ * Client-side hydrator for copy buttons
+ * MDX outputs static HTML with placeholder buttons, this component
+ * finds all placeholders and hydrates them with interactive React CopyButtons
+ */
+export function CopyButtonHydrator() {
+  useEffect(() => {
+    // Find all copy button placeholders added by the rehype plugin
+    const placeholders = document.querySelectorAll<HTMLButtonElement>('[data-copy-button]');
+
+    placeholders.forEach((placeholder) => {
+      const code = placeholder.dataset.code;
+      if (!code) return;
+
+      // Create a container and render the actual React CopyButton
+      const container = document.createElement('div');
+      placeholder.replaceWith(container);
+      const root = createRoot(container);
+      root.render(<CopyButton text={code} />);
+    });
+  }, []);
+
+  // This component doesn't render anything itself
+  return null;
 }

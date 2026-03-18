@@ -4,6 +4,7 @@ import { format } from 'date-fns';
 import { PostContent } from './PostContent';
 import { ReadingProgressBar } from '@/components/ReadingProgressBar';
 import { BackToTopButton } from '@/components/BackToTopButton';
+import { CopyButtonHydrator } from '@/components/CopyButton';
 import type { Metadata } from 'next';
 
 type PostPageProps = {
@@ -101,6 +102,7 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
         <ReadingProgressBar />
         <BackToTopButton />
+        <CopyButtonHydrator />
       </article>
     </Container>
   );
