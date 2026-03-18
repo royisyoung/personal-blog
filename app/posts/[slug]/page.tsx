@@ -2,6 +2,7 @@ import { getAllPosts, getPostBySlug } from '@/lib/content';
 import Container from '@/components/Container';
 import { format } from 'date-fns';
 import { PostContent } from './PostContent';
+import { ReadingProgressBar } from '@/components/ReadingProgressBar';
 import type { Metadata } from 'next';
 
 type PostPageProps = {
@@ -95,6 +96,7 @@ export default async function PostPage({ params }: PostPageProps) {
         <div className="prose prose-zinc dark:prose-invert max-w-none">
           <PostContent code={post.body.code} />
         </div>
+        <ReadingProgressBar />
       </article>
     </Container>
   );
