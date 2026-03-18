@@ -85,6 +85,8 @@ export default async function PostPage({ params }: PostPageProps) {
     );
   }
 
+  const shouldShowToc = post.headings && post.headings.length >= 3;
+
   return (
     <Container>
       <article className="py-8">
@@ -99,8 +101,11 @@ export default async function PostPage({ params }: PostPageProps) {
           </div>
         </header>
 
-        <div className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostContent code={post.body.code} />
+        <div className="xl:grid xl:grid-cols-[200px_1fr] xl:gap-8">
+          {shouldShowToc && <TableOfContents headings={post.headings} />}
+          <div className="prose prose-zinc dark:prose-invert max-w-none">
+            <PostContent code={post.body.code} />
+          </div>
         </div>
 
         <RelatedPosts currentPost={post} />
