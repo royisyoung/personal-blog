@@ -102,7 +102,7 @@ Plans:
 5. RSS feed is available for subscription
 6. Estimated reading time is displayed for each article
 
-**Plans:** 2/6 plans executed
+**Plans:** 3/6 plans executed
 
 Plans:
 
@@ -121,7 +121,7 @@ Plans:
 | 2. Core Content Infrastructure | 3/3            | Complete    | 2026-03-17 |
 | 3. Core Pages & UI Components  | 4/4            | Complete    | 2026-03-17 |
 | 4. SEO, Search & Deployment    | 3/3            | Complete    | 2026-03-17 |
-| 5. Enhanced UX Features        | 2/6            | In Progress |            |
+| 5. Enhanced UX Features        | 3/6            | In Progress |            |
 
 ---
 
