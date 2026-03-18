@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/lib/theme';
 import Header from '@/components/Header';
 import Container from '@/components/Container';
+import Footer from './components/Footer';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
@@ -25,6 +26,11 @@ export const metadata: Metadata = {
     title: 'MyClaudes - Personal Technology Blog',
     description: 'A clean, fast static technology blog',
   },
+  alternates: {
+    types: {
+      'application/rss+xml': '/rss.xml',
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -36,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>
             <Container>{children}</Container>
           </main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
