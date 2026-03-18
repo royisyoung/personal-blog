@@ -1,10 +1,12 @@
 import { getAllPosts, getPostBySlug } from '@/lib/content';
 import Container from '@/components/Container';
+import { TableOfContents } from '@/components/TableOfContents';
 import { format } from 'date-fns';
 import { PostContent } from './PostContent';
 import { ReadingProgressBar } from '@/components/ReadingProgressBar';
 import { BackToTopButton } from '@/components/BackToTopButton';
 import { CopyButtonHydrator } from '@/components/CopyButton';
+import { RelatedPosts } from '@/components/RelatedPosts';
 import type { Metadata } from 'next';
 
 type PostPageProps = {
@@ -100,6 +102,9 @@ export default async function PostPage({ params }: PostPageProps) {
         <div className="prose prose-zinc dark:prose-invert max-w-none">
           <PostContent code={post.body.code} />
         </div>
+
+        <RelatedPosts currentPost={post} />
+
         <ReadingProgressBar />
         <BackToTopButton />
         <CopyButtonHydrator />
