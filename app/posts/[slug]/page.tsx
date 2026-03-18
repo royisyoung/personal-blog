@@ -91,6 +91,8 @@ export default async function PostPage({ params }: PostPageProps) {
             <time dateTime={post.date}>{format(new Date(post.date), 'MMMM dd, yyyy')}</time>
             <span>•</span>
             <span>{post.category}</span>
+            <span>•</span>
+            <span>{post.readingTime} min read</span>
           </div>
         </header>
 

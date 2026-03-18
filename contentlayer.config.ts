@@ -2,6 +2,7 @@ import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 import { z } from 'zod';
 import rehypeShiki from '@shikijs/rehype';
 import remarkGfm from 'remark-gfm';
+import { calculateReadingTime } from '@/lib/reading-time';
 
 /**
  * Post 文档类型定义
@@ -53,6 +54,10 @@ export const Post = defineDocumentType(() => ({
         const parts = doc._raw.flattenedPath.split('/');
         return parts[parts.length - 1];
       },
+    },
+    readingTime: {
+      type: 'number',
+      resolve: calculateReadingTime,
     },
   },
 }));
