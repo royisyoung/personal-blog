@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { generateRSS } from '../lib/generate-rss.ts';
+require('tsx/cjs');
+const { generateRSS } = require('../lib/generate-rss.ts');
 
 async function main() {
   try {

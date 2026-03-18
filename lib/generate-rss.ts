@@ -1,4 +1,4 @@
-import RSS from 'rss';
+import RSS = require('rss');
 import { writeFileSync } from 'fs';
 import path from 'path';
 import { getAllPosts } from './content';
@@ -14,27 +14,34 @@ export async function generateRSS(): Promise<void> {
   const siteTitle = process.env.NEXT_PUBLIC_SITE_TITLE || 'My Blog';
   const siteDescription = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 'A personal technology blog';
 
-  // Create RSS feed
+  // Create RSS feed with content namespace for full content
   const feed = new RSS({
     title: siteTitle,
     description: siteDescription,
     site_url: siteUrl,
     feed_url: `${siteUrl}/rss.xml`,
     language: 'zh-CN',
+    custom_namespaces: {
+      content: 'http://purl.org/rss/1.0/modules/content/',
+    },
   });
 
   // Add each post to the feed
   posts.forEach((post: Post) => {
     const postUrl = `${siteUrl}/posts/${post.slug}`;
+    // For RSS 2.0, include full content as content:encoded
+    const description = post.description || '';
+
     feed.item({
       title: post.title,
-      description: post.description || '',
+      description: description,
       url: postUrl,
       date: new Date(post.date),
       guid: postUrl,
       categories: post.tags || [],
-      // Include full content body for full article RSS
-      content: post.body.raw,
+      custom_elements: [
+        { 'content:encoded': post.body.raw },
+      ],
     });
   });
 
