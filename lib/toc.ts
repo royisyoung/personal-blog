@@ -11,14 +11,15 @@ export interface Heading {
 /**
  * Slugifies a heading text to create a URL-safe anchor ID
  * Handles collisions by appending a counter when duplicate slugs are encountered
+ * Preserves Unicode characters (Chinese, etc.)
  */
 export function slugifyHeading(text: string, existingIds: Set<string>): string {
   // Convert to lowercase
   let slug = text.toLowerCase();
-  // Replace non-alphanumeric characters with hyphens
-  slug = slug.replace(/[^a-z0-9\s]/g, '');
-  // Replace spaces with hyphens
+  // Replace whitespace sequences with single hyphen
   slug = slug.replace(/\s+/g, '-');
+  // Remove unsafe URL characters (keep Unicode letters/numbers)
+  slug = slug.replace(/[^-\p{L}\p{N}]/gu, '');
   // Remove leading/trailing hyphens
   slug = slug.replace(/^-+|-+$/g, '');
 
