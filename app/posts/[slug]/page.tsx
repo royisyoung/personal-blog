@@ -3,6 +3,7 @@ import Container from '@/components/Container';
 import { format } from 'date-fns';
 import { PostContent } from './PostContent';
 import { ReadingProgressBar } from '@/components/ReadingProgressBar';
+import { BackToTopButton } from '@/components/BackToTopButton';
 import type { Metadata } from 'next';
 
 type PostPageProps = {
@@ -97,6 +98,7 @@ export default async function PostPage({ params }: PostPageProps) {
           <PostContent code={post.body.code} />
         </div>
         <ReadingProgressBar />
+        <BackToTopButton />
       </article>
     </Container>
   );
