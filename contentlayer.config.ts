@@ -82,6 +82,7 @@ export default makeSource({
   mdx: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [
+      rehypeExtractHeadings,
       [
         rehypeShiki as any,
         {
