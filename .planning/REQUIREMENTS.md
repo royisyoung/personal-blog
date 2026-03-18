@@ -48,12 +48,12 @@ Deferred to future release. Tracked but not in current roadmap.
 
 ### Enhanced UX
 
-- **UX-01**: Reading progress bar at top of page
-- **UX-02**: Back-to-top button for long articles
-- **UX-03**: One-click copy button for code blocks
-- **UX-04**: Auto-generated table of contents for long posts
-- **UX-05**: Related posts recommendation based on shared tags
-- **UX-06**: RSS feed subscription
+- [x] **UX-01**: Reading progress bar at top of page
+- [x] **UX-02**: Back-to-top button for long articles
+- [x] **UX-03**: One-click copy button for code blocks
+- [x] **UX-04**: Auto-generated table of contents for long posts
+- [x] **UX-05**: Related posts recommendation based on shared tags
+- [x] **UX-06**: RSS feed subscription
 - **UX-07**: Third-party comment system integration (Giscus)
 - **UX-08**: Estimated reading time display
 

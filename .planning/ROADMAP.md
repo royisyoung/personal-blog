@@ -12,7 +12,7 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 - [x] **Phase 2: Core Content Infrastructure** - Build Markdown/MDX content processing pipeline with frontmatter validation (completed 2026-03-17)
 - [x] **Phase 3: Core Pages & UI Components** - Implement all main pages and responsive UI layout (completed 2026-03-17)
 - [x] **Phase 4: SEO, Search & Deployment** - Add SEO optimization, full-text search, and Vercel deployment configuration (completed 2026-03-17)
-- [ ] **Phase 5: Enhanced UX Features** - Add P2 quality-of-life improvements that enhance the reading experience
+- [x] **Phase 5: Enhanced UX Features** - Add P2 quality-of-life improvements that enhance the reading experience (completed 2026-03-18)
 
 ## Phase Details
 
@@ -102,7 +102,7 @@ Plans:
 5. RSS feed is available for subscription
 6. Estimated reading time is displayed for each article
 
-**Plans:** 5/6 plans executed
+**Plans:** 6/6 plans complete
 
 Plans:
 
@@ -115,13 +115,13 @@ Plans:
 
 ## Progress
 
-| Phase                          | Plans Complete | Status      | Completed  |
-| ------------------------------ | -------------- | ----------- | ---------- |
-| 1. Project Foundation & Setup  | 3/3            | Complete    | 2026-03-16 |
-| 2. Core Content Infrastructure | 3/3            | Complete    | 2026-03-17 |
-| 3. Core Pages & UI Components  | 4/4            | Complete    | 2026-03-17 |
-| 4. SEO, Search & Deployment    | 3/3            | Complete    | 2026-03-17 |
-| 5. Enhanced UX Features        | 5/6 | In Progress|  |
+| Phase                          | Plans Complete | Status   | Completed  |
+| ------------------------------ | -------------- | -------- | ---------- |
+| 1. Project Foundation & Setup  | 3/3            | Complete | 2026-03-16 |
+| 2. Core Content Infrastructure | 3/3            | Complete | 2026-03-17 |
+| 3. Core Pages & UI Components  | 4/4            | Complete | 2026-03-17 |
+| 4. SEO, Search & Deployment    | 3/3            | Complete | 2026-03-17 |
+| 5. Enhanced UX Features        | 6/6            | Complete | 2026-03-18 |
 
 ---
 
