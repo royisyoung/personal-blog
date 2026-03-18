@@ -50,7 +50,7 @@ Exceptions: Back to Top button touch target at 48px (48x48), which conforms to 8
 | Body          | 16px | 400 (regular)  | 1.5         |
 | Label/Small   | 14px | 400 (regular)  | 1.5         |
 | Heading       | 24px | 600 (semibold) | 1.2         |
-| Display/Title | 32px | 700 (bold)     | 1.2         |
+| Display/Title | 32px | 600 (semibold) | 1.2         |
 
 _Pre-populated from existing project typography conventions_
 
@@ -107,7 +107,7 @@ No third-party registries needed for this phase.
 
 - [ ] Dimension 1 Copywriting: PASS
 - [ ] Dimension 2 Visuals: PASS
-- [ ] Dimension 3 Color: PASS
+- [ ] Dimension 999 Color: PASS
 - [ ] Dimension 4 Typography: PASS
 - [ ] Dimension 5 Spacing: PASS
 - [ ] Dimension 6 Registry Safety: PASS
