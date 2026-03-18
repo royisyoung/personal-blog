@@ -3,6 +3,8 @@ import { z } from 'zod';
 import rehypeShiki from '@shikijs/rehype';
 import remarkGfm from 'remark-gfm';
 import { calculateReadingTime } from './lib/reading-time';
+import { rehypeWrapCodeBlocks } from './lib/rehype-wrap-code-blocks';
+import { rehypeExtractHeadings } from './lib/toc';
 
 /**
  * Post 文档类型定义
@@ -59,6 +61,18 @@ export const Post = defineDocumentType(() => ({
       type: 'number',
       resolve: calculateReadingTime,
     },
+    headings: {
+      type: 'list',
+      of: {
+        type: 'object',
+        fields: {
+          depth: { type: 'number', required: true },
+          value: { type: 'string', required: true },
+          id: { type: 'string', required: true },
+        },
+      },
+      resolve: (doc) => doc._raw.data?.headings || [],
+    },
   },
 }));
 
@@ -79,6 +93,7 @@ export default makeSource({
           cssVariablePrefix: '--shiki-',
         },
       ],
+      rehypeWrapCodeBlocks,
     ],
   },
 });
