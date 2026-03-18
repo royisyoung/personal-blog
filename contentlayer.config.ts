@@ -2,7 +2,7 @@ import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 import { z } from 'zod';
 import rehypeShiki from '@shikijs/rehype';
 import remarkGfm from 'remark-gfm';
-import { calculateReadingTime } from '@/lib/reading-time';
+import { calculateReadingTime } from './lib/reading-time';
 
 /**
  * Post 文档类型定义
