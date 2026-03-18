@@ -102,18 +102,27 @@ Plans:
 5. RSS feed is available for subscription
 6. Estimated reading time is displayed for each article
 
-**Plans:** TBD
+**Plans:** 6 plans created
+
+Plans:
+
+- [ ] 05-01-PLAN.md — 基础客户端组件: Reading Progress Bar + Back to Top + Copy Button
+- [ ] 05-02-PLAN.md — 测试基础设施 + 阅读时间计算 + 相关文章算法
+- [ ] 05-03-PLAN.md — 自动生成目录 (TOC) 提取和组件
+- [ ] 05-04-PLAN.md — 复制按钮集成到代码块 + 相关文章展示组件
+- [ ] 05-05-PLAN.md — RSS 静态生成 + footer 链接
+- [ ] 05-06-PLAN.md — 单元测试全覆盖
 
 ## Progress
 
-| Phase                          | Plans Complete | Status      | Completed  |
-| ------------------------------ | -------------- | ----------- | ---------- |
-| 1. Project Foundation & Setup  | 3/3            | Complete    | 2026-03-16 |
-| 2. Core Content Infrastructure | 3/3            | Complete    | 2026-03-17 |
-| 3. Core Pages & UI Components  | 4/4            | Complete    | 2026-03-17 |
-| 4. SEO, Search & Deployment    | 3/3            | Complete    | 2026-03-17 |
-| 5. Enhanced UX Features        | 0/0            | Not started | -          |
+| Phase                          | Plans Complete | Status   | Completed  |
+| ------------------------------ | -------------- | -------- | ---------- |
+| 1. Project Foundation & Setup  | 3/3            | Complete | 2026-03-16 |
+| 2. Core Content Infrastructure | 3/3            | Complete | 2026-03-17 |
+| 3. Core Pages & UI Components  | 4/4            | Complete | 2026-03-17 |
+| 4. SEO, Search & Deployment    | 3/3            | Complete | 2026-03-17 |
+| 5. Enhanced UX Features        | 0/6            | Planned  | -          |
 
 ---
 
-_Roadmap created: 2026-03-16_ _Last updated: 2026-03-17_
+_Roadmap created: 2026-03-16_ _Last updated: 2026-03-18_
