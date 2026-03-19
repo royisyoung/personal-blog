@@ -2,38 +2,49 @@
 
 ## Overview
 
-This roadmap delivers a fully functional static technical blog built with Next.js 15, following the content-as-code pattern. All v1 requirements are mapped to phases with clear observable success criteria.
+This roadmap delivers a fully functional static technical blog built with Next.js, following the content-as-code pattern.
 
-**Project Core Value:** Provide a fast, clean reading experience that lets readers focus on technical content.
+---
 
-## Phases
+## Milestones
 
-- [x] **Phase 1: Project Foundation & Setup** - Initialize Next.js project with correct static export configuration (completed 2026-03-16)
-- [x] **Phase 2: Core Content Infrastructure** - Build Markdown/MDX content processing pipeline with frontmatter validation (completed 2026-03-17)
-- [x] **Phase 3: Core Pages & UI Components** - Implement all main pages and responsive UI layout (completed 2026-03-17)
-- [x] **Phase 4: SEO, Search & Deployment** - Add SEO optimization, full-text search, and Vercel deployment configuration (completed 2026-03-17)
-- [x] **Phase 5: Enhanced UX Features** - Add P2 quality-of-life improvements that enhance the reading experience (completed 2026-03-18)
+- ✅ **v1.0 MVP** — Phases 1-5 (shipped 2026-03-19)
 
-## Phase Details
+---
 
-### Phase 1: Project Foundation & Setup
+<details>
+<summary>✅ v1.0 MVP (Phases 1-5) — SHIPPED 2026-03-19</summary>
 
-**Goal:** Working Next.js 15 project with all dependencies correctly configured for static export **Depends on:** Nothing (first phase) **Requirements:** CONT-01 **Success Criteria** (what must be TRUE):
+### 1. Project Foundation & Setup
+
+**Goal:** Working Next.js 15 project with all dependencies correctly configured for static export **Depends on:** Nothing (first phase) **Plans:** 3/3 plans complete
+
+Plans:
+
+- [x] 01-01: Project scaffolding with create-next-app
+- [x] 01-02: Core configuration (static export + dark mode)
+- [x] 01-03: Developer tools (husky + VS Code)
+
+**Success Criteria:**
 
 1. `next dev` starts a local development server on localhost:3000 without errors
 2. `next build` completes successfully and generates a static `out` directory
 3. Static output configuration is correct for Vercel deployment
 4. Tailwind CSS 4 with dark mode support is properly configured
 
-**Plans:** 3/3 plans complete
+---
 
-- [ ] 01-project-foundation-01-PLAN.md — Project scaffolding with create-next-app
-- [ ] 01-project-foundation-02-PLAN.md — Core configuration (static export + dark mode)
-- [ ] 01-project-foundation-03-PLAN.md — Developer tools (husky + VS Code)
+### 2. Core Content Infrastructure
 
-### Phase 2: Core Content Infrastructure
+**Goal:** Markdown/MDX content can be processed with metadata extraction and code highlighting at build time **Depends on:** Phase 1 **Plans:** 3/3 plans complete
 
-**Goal:** Markdown/MDX content can be processed with metadata extraction and code highlighting at build time **Depends on:** Phase 1 **Requirements:** CONT-02, CONT-03, CONT-04, CONT-05 **Success Criteria** (what must be TRUE):
+Plans:
+
+- [x] 02-01: Install dependencies and configure Contentlayer with Next.js
+- [x] 02-02: Define Post document type with frontmatter validation and content utilities
+- [x] 02-03: Configure Shiki code highlighting and create content directory structure
+
+**Success Criteria:**
 
 1. Blog posts can be written as Markdown/MDX files in `/content/posts/` directory
 2. Frontmatter (title, date, description, category, tags) is correctly parsed and validated
@@ -41,15 +52,20 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 4. Code blocks in articles have correct syntax highlighting using Shiki
 5. Build fails if any post has invalid frontmatter (validation catches errors)
 
-**Plans:** 3/3 plans complete
+---
 
-- [ ] 02-01-PLAN.md — Install dependencies and configure Contentlayer with Next.js
-- [ ] 02-02-PLAN.md — Define Post document type with frontmatter validation and content utilities
-- [ ] 02-03-PLAN.md — Configure Shiki code highlighting and create content directory structure
+### 3. Core Pages & UI Components
 
-### Phase 3: Core Pages & UI Components
+**Goal:** Users can browse blog content through a responsive, clean interface with proper navigation **Depends on:** Phase 2 **Plans:** 4/4 plans complete
 
-**Goal:** Users can browse blog content through a responsive, clean interface with proper navigation **Depends on:** Phase 2 **Requirements:** PAGE-01, PAGE-02, PAGE-03, PAGE-04, PAGE-05, UI-01, UI-02, UI-03, UI-04, UI-05 **Success Criteria** (what must be TRUE):
+Plans:
+
+- [x] 03-01: Shared layout foundation: header + theme toggle + container
+- [x] 03-02: Home page + about page + reusable post list components
+- [x] 03-03: Post detail page + category/tag filter pages + pagination
+- [x] 03-04: Add pagination to home page (gap closure for UI-05)
+
+**Success Criteria:**
 
 1. Home page displays blog description and a list of all posts sorted by date
 2. Clicking a post opens the individual post page with full content rendered correctly
@@ -62,18 +78,19 @@ This roadmap delivers a fully functional static technical blog built with Next.j
 9. Site header with navigation links is visible on all pages
 10. Pagination works for post lists when there are many posts
 
-**Plans:** 4/4 plans complete
+---
+
+### 4. SEO, Search & Deployment
+
+**Goal:** Blog is discoverable by search engines, searchable by readers, and deployable to Vercel with one click **Depends on:** Phase 3 **Plans:** 3/3 plans complete
 
 Plans:
 
-- [ ] 03-01-PLAN.md — Shared layout foundation: header + theme toggle + container
-- [ ] 03-02-PLAN.md — Home page + about page + reusable post list components
-- [ ] 03-03-PLAN.md — Post detail page + category/tag filter pages + pagination
-- [ ] 03-04-PLAN.md — Add pagination to home page (gap closure for UI-05)
+- [x] 04-01: SEO infrastructure (meta tags + OG image + sitemap + robots)
+- [x] 04-02: Pagefind 搜索集成
+- [x] 04-03: Search UI 模态弹窗组件
 
-### Phase 4: SEO, Search & Deployment
-
-**Goal:** Blog is discoverable by search engines, searchable by readers, and deployable to Vercel with one click **Depends on:** Phase 3 **Requirements:** SEO-01, SEO-02, SEO-03, DEP-01, SRCH-01, SRCH-02 **Success Criteria** (what must be TRUE):
+**Success Criteria:**
 
 1. Each page has correct meta tags (title, description, Open Graph) for social sharing
 2. `sitemap.xml` is generated automatically at build time
@@ -83,17 +100,22 @@ Plans:
 6. Project can be deployed to Vercel with one click without configuration errors
 7. Deployed site is fully functional with all assets loading correctly
 
-**Plans:** 3/3 plans complete
+---
+
+### 5. Enhanced UX Features
+
+**Goal:** Additional quality-of-life features that improve the reading experience (P2) **Depends on:** Phase 4 **Plans:** 6/6 plans complete
 
 Plans:
 
-- [ ] 04-01-PLAN.md — SEO infrastructure (meta tags + OG image + sitemap + robots
-- [ ] 04-02-PLAN.md — Pagefind 搜索集成
-- [ ] 04-03-PLAN.md — Search UI 模态弹窗组件
+- [x] 05-01: 基础客户端组件: Reading Progress Bar + Back to Top + Copy Button
+- [x] 05-02: 测试基础设施 + 阅读时间计算 + 相关文章算法
+- [x] 05-03: 自动生成目录 (TOC) 提取和组件
+- [x] 05-04: 复制按钮集成到代码块 + 相关文章展示组件
+- [x] 05-05: RSS 静态生成 + footer 链接
+- [x] 05-06: 单元测试全覆盖
 
-### Phase 5: Enhanced UX Features
-
-**Goal:** Additional quality-of-life features that improve the reading experience (P2) **Depends on:** Phase 4 **Requirements:** (v2 requirements deferred from v1, added here based on priority) **Success Criteria** (what must be TRUE):
+**Success Criteria:**
 
 1. Reading progress bar displays at the top of the page during scrolling
 2. Users can click a button to copy code blocks to clipboard
@@ -102,27 +124,18 @@ Plans:
 5. RSS feed is available for subscription
 6. Estimated reading time is displayed for each article
 
-**Plans:** 6/6 plans complete
+---
 
-Plans:
+**v1.0 Progress:** | Phase | Plans Complete | Status | Completed | | ------------------------------ | -------------- | -------- | ---------- | | 1. Project Foundation & Setup | 3/3 | Complete | 2026-03-16 | | 2. Core Content Infrastructure | 3/3 | Complete | 2026-03-17 | | 3. Core Pages & UI Components | 4/4 | Complete | 2026-03-17 | | 4. SEO, Search & Deployment | 3/3 | Complete | 2026-03-17 | | 5. Enhanced UX Features | 6/6 | Complete | 2026-03-18 |
 
-- [ ] 05-01-PLAN.md — 基础客户端组件: Reading Progress Bar + Back to Top + Copy Button
-- [ ] 05-02-PLAN.md — 测试基础设施 + 阅读时间计算 + 相关文章算法
-- [ ] 05-03-PLAN.md — 自动生成目录 (TOC) 提取和组件
-- [ ] 05-04-PLAN.md — 复制按钮集成到代码块 + 相关文章展示组件
-- [ ] 05-05-PLAN.md — RSS 静态生成 + footer 链接
-- [ ] 05-06-PLAN.md — 单元测试全覆盖
-
-## Progress
-
-| Phase                          | Plans Complete | Status   | Completed  |
-| ------------------------------ | -------------- | -------- | ---------- |
-| 1. Project Foundation & Setup  | 3/3            | Complete | 2026-03-16 |
-| 2. Core Content Infrastructure | 3/3            | Complete | 2026-03-17 |
-| 3. Core Pages & UI Components  | 4/4            | Complete | 2026-03-17 |
-| 4. SEO, Search & Deployment    | 3/3            | Complete | 2026-03-17 |
-| 5. Enhanced UX Features        | 6/6            | Complete | 2026-03-18 |
+</details>
 
 ---
 
-_Roadmap created: 2026-03-16_ _Last updated: 2026-03-18_
+## Next Milestone
+
+Planning for v1.1 or v2.0 has not started. Use `/gsd:new-milestone` to start planning the next milestone.
+
+---
+
+_Last updated: 2026-03-19 after v1.0 completion_
