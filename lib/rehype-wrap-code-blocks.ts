@@ -2,6 +2,20 @@ import type { Root, Parent } from 'hast';
 import { visit } from 'unist-util-visit';
 
 /**
+ * Recursively extract all text content from a node
+ * Handles Shiki output where text is inside nested spans (.line span)
+ */
+function extractAllText(node: any): string {
+  if (node.type === 'text') {
+    return node.value;
+  }
+  if ('children' in node && Array.isArray(node.children)) {
+    return node.children.map((child) => extractAllText(child)).join('');
+  }
+  return '';
+}
+
+/**
  * Rehype plugin to wrap code blocks in a container div for copy button positioning
  * Finds all <pre> elements that contain <code> (code blocks)
  * Wraps them in a <div class="code-block-wrapper relative">
@@ -20,13 +34,10 @@ export function rehypeWrapCodeBlocks() {
           | Parent
           | undefined;
 
-        // Extract the text content from the code block
+        // Extract the text content from the code block (recursive for Shiki output)
         let codeText = '';
         if (codeChild && 'children' in codeChild) {
-          codeText = codeChild.children
-            .filter((child: any) => child.type === 'text')
-            .map((child: any) => child.value)
-            .join('');
+          codeText = extractAllText(codeChild);
         }
 
         // Create wrapper div

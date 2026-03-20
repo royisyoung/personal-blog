@@ -1,0 +1,1296 @@
+[      55ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[      56ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[     131ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[     576ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[     617ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    2918ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    3204ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    3206ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    3382ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    3666ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    3672ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    3891ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    4160ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    4161ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    4437ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    4681ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    4680ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    4875ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    5100ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    5101ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    5390ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    5657ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    5657ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    5854ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    6098ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    6099ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    6290ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    6526ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    6526ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    6722ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    6960ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    6960ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    7156ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    7410ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    7446ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    7711ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    7968ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    7969ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    8178ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    8453ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    8453ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    8649ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    8920ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    8920ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    9117ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    9394ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    9395ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    9705ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[    9948ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[    9948ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   10147ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   10379ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   10379ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   10651ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   10880ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   10880ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   11082ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   11312ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   11312ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   11586ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   11858ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   11858ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   12056ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   12404ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   12411ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   12719ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   12979ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   12978ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   13228ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   13477ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   13483ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   13681ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   13922ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   13923ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   14100ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   14336ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   14336ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   14531ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   14762ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   14762ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   14961ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   15210ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   15210ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   15408ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   15696ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   15697ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   15942ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   16184ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   16197ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   16380ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   16619ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   16619ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   16916ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   17194ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   17223ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   17582ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   17881ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   17881ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   18101ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   18340ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   18340ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   18542ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   18819ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   18819ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   19019ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   19374ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   19375ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   19589ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   19857ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   19857ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   20061ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   20313ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   20314ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   20511ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   20739ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   20740ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   20940ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   21170ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   21170ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   21365ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   21654ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   21655ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   21855ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   22120ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   22120ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   22315ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   22667ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   22675ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   22995ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   23233ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   23233ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   23484ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   23739ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   23739ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   23935ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   24174ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   24173ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   24376ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   24642ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   24643ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   24838ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   25104ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   25104ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   25294ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   25544ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   25554ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   25739ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   25979ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   25979ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   26154ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   26395ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   26395ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   26599ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   26846ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   26847ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   27043ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   27284ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   27286ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   27695ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   27955ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   27955ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   28121ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   28400ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   28400ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   28602ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   28874ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   28874ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   29071ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   29327ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   29327ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   29526ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   29753ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   29753ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   29951ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   30197ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   30197ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   30389ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   30613ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   30613ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   30803ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   31026ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   31026ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   31226ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   31479ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   31480ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   31762ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   32009ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   32008ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   32308ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   32554ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   32556ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   32869ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   33155ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   33156ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   33540ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   33892ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   33891ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   34128ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   34504ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   34506ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   34845ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   35088ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   35089ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   35286ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   35575ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   35575ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   35785ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   36031ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   36031ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   36204ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   36471ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   36471ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   36679ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
+[   37002ms] ModuleBuildError: Module build failed (from ./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2)
+    at processResult (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/xuyang/code/my-claudes/node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[   37002ms] [ERROR] ./.contentlayer/generated/index.mjs
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/xuyang/code/my-claudes/.contentlayer/generated/index.mjs
+    1: No such file or directory (os error 2) @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.12_@babel+core@7.29.0_@opentelemetry+api@1.9.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   37204ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/posts/hello-world:0
