@@ -9,13 +9,14 @@ import { visit } from 'unist-util-visit';
  */
 export function rehypeWrapCodeBlocks() {
   return (tree: Root) => {
-    visit(tree, 'element', (node) => {
-      // Look for pre elements that contain code
+    // Visit recursively, keep track of parent
+    const visitNode = (node: any, parent: Parent | null, index: number | null) => {
       if (
+        node.type === 'element' &&
         node.tagName === 'pre' &&
-        node.children.some((child) => child.type === 'element' && child.tagName === 'code')
+        node.children.some((child: any) => child.type === 'element' && child.tagName === 'code')
       ) {
-        const codeChild = node.children.find((child) => child.type === 'element' && child.tagName === 'code') as
+        const codeChild = node.children.find((child: any) => child.type === 'element' && child.tagName === 'code') as
           | Parent
           | undefined;
 
@@ -23,8 +24,8 @@ export function rehypeWrapCodeBlocks() {
         let codeText = '';
         if (codeChild && 'children' in codeChild) {
           codeText = codeChild.children
-            .filter((child) => child.type === 'text')
-            .map((child) => child.value)
+            .filter((child: any) => child.type === 'text')
+            .map((child: any) => child.value)
             .join('');
         }
 
@@ -52,16 +53,18 @@ export function rehypeWrapCodeBlocks() {
 
         wrapper.children.push(placeholder);
 
-        // Replace the original node with the wrapper
-        // We need to find the parent and replace the node
-        if (node && node.position && 'parent' in node && node.parent) {
-          const parent = node.parent as Parent;
-          const index = parent.children.indexOf(node);
-          if (index !== -1) {
-            parent.children[index] = wrapper;
-          }
+        // Replace the original node with the wrapper in parent
+        if (parent && index !== null) {
+          parent.children[index] = wrapper;
         }
       }
-    });
+
+      // Continue visiting children
+      if ('children' in node) {
+        node.children.forEach((child: any, i: number) => visitNode(child, node as Parent, i));
+      }
+    };
+
+    visitNode(tree as any, null, null);
   };
 }

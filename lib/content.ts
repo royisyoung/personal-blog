@@ -18,3 +18,29 @@ export function getAllPosts(): Post[] {
 export function getPostBySlug(slug: string): Post | undefined {
   return allPosts.find((post) => post.slug === slug);
 }
+
+/**
+ * Get all unique categories from all posts
+ * @returns Array of unique category names sorted alphabetically
+ */
+export function getAllCategories(): string[] {
+  const categories = new Set<string>();
+  allPosts.forEach((post) => {
+    categories.add(post.category);
+  });
+  return Array.from(categories).sort();
+}
+
+/**
+ * Get all unique tags from all posts
+ * @returns Array of unique tag names sorted alphabetically
+ */
+export function getAllTags(): string[] {
+  const tags = new Set<string>();
+  allPosts.forEach((post) => {
+    post.tags.forEach((tag) => {
+      tags.add(tag);
+    });
+  });
+  return Array.from(tags).sort();
+}

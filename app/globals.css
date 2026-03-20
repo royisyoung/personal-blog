@@ -131,3 +131,9 @@ body {
     @apply font-sans;
   }
 }
+
+/* Code block wrapper for copy button positioning */
+.code-block-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
